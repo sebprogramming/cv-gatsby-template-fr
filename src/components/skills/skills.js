@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import SkillBar from './skill-bar'
 
-export default ({ title = 'Skills', skills = [] }) => {
+export default ({ title = 'Habiletés', skills = [] }) => {
   return (
     <Fragment>
       <h1>{title}</h1>

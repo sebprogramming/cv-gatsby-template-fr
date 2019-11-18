@@ -1,91 +1,102 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
-  siteDescription: `Create your online curriculum in just a few minutes with this starter`,
+  siteTitle: 'Bienvenue sur ma page!',
+  siteDescription: `CV informatique en ligne de Sébastien Bilodeau de Québec.`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
+  authorName: 'Sébastien Bilodeau',
+  twitterUsername: 'sebprogramming',
+  githubUsername: 'sebprogramming',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorDescription: `En premier lieu Webmestre, mais forcé par la vie à devenir développeur React pour augmenter la rapidité des sites et pour l'intégration directe des API. Gatsby est aussi incroyable et j'ai fait cette page à partir d'un thème Starter. 
+  <br /> <br />
+  Je fais des sites web depuis 2003. Après avoir amplement expérimenté Wordpress, je cherche à rendre la qualité de mes sites meilleures: j'utilise maintenant Gatsby, React, Netlify, GraphCMS, GraphQL, JamStack mais tout est en progression continue :-).`,
   skills: [
     {
       name: 'HTML',
-      level: 70
+      level: 95
     },
     {
       name: 'CSS',
-      level: 60
+      level: 85
     },
     {
       name: 'Javascript',
-      level: 50
+      level: 30
     },
     {
       name: 'NodeJs',
-      level: 40
+      level: 50
     },
     {
-      name: 'React',
-      level: 60
+      name: 'Gatsby',
+      level: 50
     },
     {
       name: 'Git',
-      level: 70
+      level: 50
+    },
+    {
+      name: 'Wordpress',
+      level: 90
+    },
+    
+    {
+      name: 'Hosting, Cpanel, SMTP Servers',
+      level: 90
+    },
+    {
+      name: 'Adobe Suite: Photoshop, XD',
+      level: 80
     }
   ],
   jobs: [
     {
-      company: "Lendico",
+      company: "Travailleur autonome",
       begin: {
-        month: 'apr',
-        year: '2018'
-      },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
-  
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'dec',
-        year: '2016'
-      },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'set',
+        month: 'jan',
         year: '2012'
       },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+      duration: null,
+      occupation: "Consultant et webmestre",
+      description: "Mandats pour informatique juridique, développement de sites web et hébergement web. Gestion et installation de téléphonie VOIP."
+  
+    }, {
+      company: "Diverses entreprises",
+      begin: {
+        month: 'juin',
+        year: '2012'
+      },
+      duration: '7 ans',
+      occupation: "Investisseur, webmestre, technicien",
+      description: "Développement d'affaires et d'entreprises grâce à Internet et surtout aux sites web et applications que j'ai installés et dont j'ai fait la maintenance. J'ai toujours géré ma téléphonie IP avec Voip.ms aussi."
+    }, {
+      company: "Diverses entreprises",
+      begin: {
+        month: 'set',
+        year: '2005'
+      },
+      duration: '4 ans',
+      occupation: "Directeur de comptes",
+      description: "Vente et représentation publicitaires en lignes et dans divers médias à grande distribution. Ma passion pour l'internet des affaires s'est agrandie pendant cette période."
   
     },
     /* ... */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    twitter: "https://twitter.com/sebprogramming",
+    github: "https://github.com/sebprogramming",
+    email: "sebastien.programmation@gmail.com"
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
+  siteUrl: 'https://sebastienbilodeau.info',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
-  googleAnalyticsId: 'UA-000000000-1',
+  googleAnalyticsId: '',
   background_color: '#ffffff',
   theme_color: '#25303B',
   display: 'minimal-ui',
   icon: 'src/assets/gatsby-icon.png',
   headerLinks: [
     {
-      label: 'Francisco Santos',
+      label: 'Sébastien Bilodeau',
       url: '/',
     }
   ]

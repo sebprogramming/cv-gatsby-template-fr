@@ -64,9 +64,9 @@ Update the configuration file with your data. The configuration file is in ```da
 
 ```js
 module.exports = {
-  siteTitle: 'Francisco Santos',
+  siteTitle: 'Sébastien Bilodeau',
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
-  authorName: 'Francisco Santos',
+  authorName: 'Sébastien Bilodeau',
   twitterUsername: '_franciscodf',
   githubUsername: 'santosfrancisco',
   authorAvatar: '/images/avatar.jpeg',

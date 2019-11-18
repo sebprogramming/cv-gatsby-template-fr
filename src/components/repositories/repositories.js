@@ -27,7 +27,8 @@ class Repositories extends React.Component {
     const { status } = this.state
     return (
       <div className={this.props.className}>
-        <h2>Latest repositories on Github</h2>
+        <h2>Dernier truc sur Github</h2>
+        <p>C'est vraiment une section à développer. Plusieurs des mes projets sont pour le moment privés, mais je vais tenter de les placer dans mon GitHub dès que possible.</p>
         {status === "loading" && <div className='repositories__loader'><Loader /></div>}
         {status === "ready" &&
           this.state.repos && (
@@ -41,7 +42,7 @@ class Repositories extends React.Component {
                       </a>
                       <div>{repo.description}</div>
                       <div className="repositories__repo-date">
-                        Updated: {new Date(repo.updated_at).toUTCString()}
+                       Mise à jour:   {new Date(repo.updated_at).toUTCString()}
                       </div>
                       <div className="repositories__repo-star">
                         ★ {repo.stargazers_count}

@@ -16,6 +16,7 @@
     "gatsby-plugin-styled-components": "3.0.7",
     "gatsby-source-filesystem": "2.0.33",
     "gatsby-transformer-sharp": "2.1.19",
+    "graphql-playground-middleware-express": "^1.7.12",
     "prop-types": "15.7.2",
     "react": "16.8.6",
     "react-awesome-styled-grid": "2.2.3",

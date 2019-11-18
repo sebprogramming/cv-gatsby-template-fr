@@ -21,7 +21,7 @@ const Separator = styled.hr`
 class Home extends React.Component {
   render () {
     // validate siteConfig settings
-    if (siteConfig.googleAnalyticsId === 'UA-000000000-1') {
+    if (siteConfig.googleAnalyticsId === '') {
       console.error('WARNING: Please set a proper googleAnalyticsId. See https://analytics.google.com for details.');
     }
 
@@ -52,9 +52,7 @@ class Home extends React.Component {
                   {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github}>
                     <FaGithub className="social-icon" size="32" />
                   </a>}
-                  {siteConfig.social.linkedin && <a className="social-link linkedin" href={siteConfig.social.linkedin}>
-                    <FaLinkedin className="social-icon" size="32" />
-                  </a>}
+                  
                   {siteConfig.social.twitter && <a className="social-link twitter" href={siteConfig.social.twitter}>
                     <FaTwitter className="social-icon" size="32" />
                   </a>}
@@ -66,10 +64,10 @@ class Home extends React.Component {
             </Row>
             <Row>
               <Col xs={4} sm={4}>
-                <About title='About' text={siteConfig.authorDescription}/>
+                <About title='À propos' text={siteConfig.authorDescription}/>
               </Col>
               <Col xs={4} sm={4}>
-                <Skills title='Skills' skills={siteConfig.skills} />
+                <Skills title='Habiletés' skills={siteConfig.skills} />
               </Col>
             </Row>
             <Separator />
